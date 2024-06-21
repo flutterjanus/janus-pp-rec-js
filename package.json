@@ -9,6 +9,7 @@
     "bugs": {
         "url": "https://github.com/flutterjanus/janus-pp-rec-js/issues"
     },
+    "type": "module",
     "homepage": "https://github.com/flutterjanus/janus-pp-rec-js#readme",
     "typings": "dist",
     "main": "dist/index.js",
