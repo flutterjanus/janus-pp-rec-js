@@ -1,7 +1,6 @@
 import _ from "lodash";
 import ffmpegPath from "@ffmpeg-installer/ffmpeg";
 import ffmpeg from "fluent-ffmpeg";
-import { spawnObservable } from "./spawn.js";
 
 ffmpeg.setFfmpegPath(ffmpegPath.path);
 

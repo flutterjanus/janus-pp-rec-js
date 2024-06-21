@@ -1,13 +1,13 @@
 import _ from 'lodash'
-import { addBufferOutput, spawnObservable } from './core'
+import { addBufferOutput, spawnObservable } from './core/index.js'
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { join } from 'path'
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export class JanusPPRecJs {
-    static async createWavFromMjr(mjrPath: string, wavPath: string) {
-        const { events: converter, errorObservable } = spawnObservable(`janus-pp-rec`, [mjrPath, wavPath], {
+    static async convertMjr(mjrPath: string, targetPath: string) {
+        const { events: converter, errorObservable } = spawnObservable(`./janus-pp-rec`, [mjrPath, targetPath], {
             shell: true,
             cwd: join(__dirname, "../bin/linux")
         });

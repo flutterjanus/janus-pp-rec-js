@@ -1,2 +1,2 @@
-export * from './spawn'
-export * from './converter'
+export * from './spawn.js'
+export * from './converter.js'

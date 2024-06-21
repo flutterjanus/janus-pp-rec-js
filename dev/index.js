@@ -1,7 +1,8 @@
-import { JanusPPRecJs } from 'janus-pp-rec-js'
+import {JanusPPRecJs} from 'janus-pp-rec-js'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import { join } from 'path'
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const mjrFilePath = join(
     __dirname,
