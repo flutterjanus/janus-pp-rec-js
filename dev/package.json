@@ -1,0 +1,14 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "janus-pp-rec-js": "file:../janus-pp-rec-js-1.0.0.tgz"
+  }
+}

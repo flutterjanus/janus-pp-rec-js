@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "target": "es5",
+        "types": ["node"],
+        "declarationMap": true,
+        "declaration": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": ["ES5", "ES2015", "DOM", "ScriptHost"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "janus-gateway"]
+}
